@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Virtual de Empregabilidade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Assistente Virtual para Currículos e Entrevistas</h1>
+
+        <h2>Análise de Currículo</h2>
+
+        <textarea id="curriculo" rows="10" placeholder="Cole seu currículo aqui..."></textarea>
+
+        <button onclick="analisarCurriculo()">
+            Analisar Currículo
+        </button>
+
+        <div id="resultado"></div>
+
+        <hr>
+
+        <h2>Simulação de Entrevista</h2>
+
+        <p>Fale sobre você:</p>
+        <textarea id="resposta" rows="5"></textarea>
+
+        <button onclick="avaliarResposta()">
+            Avaliar Resposta
+        </button>
+
+        <div id="feedback"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
